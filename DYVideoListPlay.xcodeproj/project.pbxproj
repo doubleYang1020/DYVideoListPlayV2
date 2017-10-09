@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FA4665C33FF566C89859CE2 /* libPods-DYVideoListPlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8801E36F37E85402D575EAAF /* libPods-DYVideoListPlay.a */; };
 		F2632C031F75EC8400352773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2632C021F75EC8400352773 /* AppDelegate.m */; };
-		F2632C061F75EC8400352773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2632C051F75EC8400352773 /* ViewController.m */; };
+		F2632C061F75EC8400352773 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2632C051F75EC8400352773 /* MainViewController.m */; };
 		F2632C091F75EC8400352773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2632C071F75EC8400352773 /* Main.storyboard */; };
 		F2632C0B1F75EC8400352773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2632C0A1F75EC8400352773 /* Assets.xcassets */; };
 		F2632C0E1F75EC8400352773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2632C0C1F75EC8400352773 /* LaunchScreen.storyboard */; };
 		F2632C111F75EC8400352773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2632C101F75EC8400352773 /* main.m */; };
+		F2632C191F75EDE400352773 /* DYPlayerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2632C181F75EDE400352773 /* DYPlayerScrollView.m */; };
+		F2632C1C1F75EF4000352773 /* VideoInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2632C1B1F75EF4000352773 /* VideoInfoModel.m */; };
+		F2632C241F76630B00352773 /* VideoDataModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2632C231F76630B00352773 /* VideoDataModel.mm */; };
+		F27D04B71F8B8787005A95B6 /* video01.json in Resources */ = {isa = PBXBuildFile; fileRef = F27D04B51F8B8500005A95B6 /* video01.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EDFD609EAAFC7FDDD16F386 /* Pods-DYVideoListPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYVideoListPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYVideoListPlay/Pods-DYVideoListPlay.release.xcconfig"; sourceTree = "<group>"; };
+		8801E36F37E85402D575EAAF /* libPods-DYVideoListPlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYVideoListPlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2D06121D398F16F05C5597 /* Pods-DYVideoListPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYVideoListPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYVideoListPlay/Pods-DYVideoListPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		F2632BFE1F75EC8400352773 /* DYVideoListPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYVideoListPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2632C011F75EC8400352773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2632C021F75EC8400352773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2632C041F75EC8400352773 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2632C051F75EC8400352773 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2632C041F75EC8400352773 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F2632C051F75EC8400352773 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F2632C081F75EC8400352773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2632C0A1F75EC8400352773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2632C0D1F75EC8400352773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2632C0F1F75EC8400352773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2632C101F75EC8400352773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2632C171F75EDE400352773 /* DYPlayerScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYPlayerScrollView.h; sourceTree = "<group>"; };
+		F2632C181F75EDE400352773 /* DYPlayerScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYPlayerScrollView.m; sourceTree = "<group>"; };
+		F2632C1A1F75EF4000352773 /* VideoInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoInfoModel.h; sourceTree = "<group>"; };
+		F2632C1B1F75EF4000352773 /* VideoInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoInfoModel.m; sourceTree = "<group>"; };
+		F2632C221F76630B00352773 /* VideoDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDataModel.h; sourceTree = "<group>"; };
+		F2632C231F76630B00352773 /* VideoDataModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoDataModel.mm; sourceTree = "<group>"; };
+		F27D04B51F8B8500005A95B6 /* video01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = video01.json; sourceTree = "<group>"; };
+		F27D04B61F8B85A9005A95B6 /* temp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = temp.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA4665C33FF566C89859CE2 /* libPods-DYVideoListPlay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0130FFB802B5CF05A123D844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2D06121D398F16F05C5597 /* Pods-DYVideoListPlay.debug.xcconfig */,
+				2EDFD609EAAFC7FDDD16F386 /* Pods-DYVideoListPlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94B12A3EAE84FE76C4E20AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8801E36F37E85402D575EAAF /* libPods-DYVideoListPlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2632BF51F75EC8400352773 = {
 			isa = PBXGroup;
 			children = (
 				F2632C001F75EC8400352773 /* DYVideoListPlay */,
 				F2632BFF1F75EC8400352773 /* Products */,
+				0130FFB802B5CF05A123D844 /* Pods */,
+				94B12A3EAE84FE76C4E20AE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +94,18 @@
 		F2632C001F75EC8400352773 /* DYVideoListPlay */ = {
 			isa = PBXGroup;
 			children = (
+				F27D04B51F8B8500005A95B6 /* video01.json */,
+				F27D04B61F8B85A9005A95B6 /* temp.json */,
 				F2632C011F75EC8400352773 /* AppDelegate.h */,
 				F2632C021F75EC8400352773 /* AppDelegate.m */,
-				F2632C041F75EC8400352773 /* ViewController.h */,
-				F2632C051F75EC8400352773 /* ViewController.m */,
+				F2632C041F75EC8400352773 /* MainViewController.h */,
+				F2632C051F75EC8400352773 /* MainViewController.m */,
+				F2632C1A1F75EF4000352773 /* VideoInfoModel.h */,
+				F2632C1B1F75EF4000352773 /* VideoInfoModel.m */,
+				F2632C221F76630B00352773 /* VideoDataModel.h */,
+				F2632C231F76630B00352773 /* VideoDataModel.mm */,
+				F2632C171F75EDE400352773 /* DYPlayerScrollView.h */,
+				F2632C181F75EDE400352773 /* DYPlayerScrollView.m */,
 				F2632C071F75EC8400352773 /* Main.storyboard */,
 				F2632C0A1F75EC8400352773 /* Assets.xcassets */,
 				F2632C0C1F75EC8400352773 /* LaunchScreen.storyboard */,
@@ -78,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2632C141F75EC8400352773 /* Build configuration list for PBXNativeTarget "DYVideoListPlay" */;
 			buildPhases = (
+				211246FBF275C34C80BD0B47 /* [CP] Check Pods Manifest.lock */,
 				F2632BFA1F75EC8400352773 /* Sources */,
 				F2632BFB1F75EC8400352773 /* Frameworks */,
 				F2632BFC1F75EC8400352773 /* Resources */,
+				BB6CC338758C60A67AD44BF8 /* [CP] Embed Pods Frameworks */,
+				3A9F77E94C7BF755315E3619 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27D04B71F8B8787005A95B6 /* video01.json in Resources */,
 				F2632C0E1F75EC8400352773 /* LaunchScreen.storyboard in Resources */,
 				F2632C0B1F75EC8400352773 /* Assets.xcassets in Resources */,
 				F2632C091F75EC8400352773 /* Main.storyboard in Resources */,
@@ -137,14 +185,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		211246FBF275C34C80BD0B47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A9F77E94C7BF755315E3619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYVideoListPlay/Pods-DYVideoListPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB6CC338758C60A67AD44BF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYVideoListPlay/Pods-DYVideoListPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2632BFA1F75EC8400352773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2632C061F75EC8400352773 /* ViewController.m in Sources */,
+				F2632C061F75EC8400352773 /* MainViewController.m in Sources */,
 				F2632C111F75EC8400352773 /* main.m in Sources */,
+				F2632C1C1F75EF4000352773 /* VideoInfoModel.m in Sources */,
 				F2632C031F75EC8400352773 /* AppDelegate.m in Sources */,
+				F2632C191F75EDE400352773 /* DYPlayerScrollView.m in Sources */,
+				F2632C241F76630B00352773 /* VideoDataModel.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +375,15 @@
 		};
 		F2632C151F75EC8400352773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2D06121D398F16F05C5597 /* Pods-DYVideoListPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DASH6JFSDW;
 				INFOPLIST_FILE = DYVideoListPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huyangyang.DYVideoListPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = huyangyang.DYVideoListPlayV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +391,15 @@
 		};
 		F2632C161F75EC8400352773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDFD609EAAFC7FDDD16F386 /* Pods-DYVideoListPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DASH6JFSDW;
 				INFOPLIST_FILE = DYVideoListPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = huyangyang.DYVideoListPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = huyangyang.DYVideoListPlayV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
